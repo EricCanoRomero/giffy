@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+}
+
+.App-title {
+  text-transform: uppercase;
+}
+
+.App-content {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  padding: 16px;
+  color: white;
+}
+
+button {
+  font-size: 48px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+a {
+  color: #09f;
+  font-size: 32px;
+}
+
+.giffyLogo:hover {
+  cursor: pointer;
+  color: #6b6d72;
+  transition: all ease-in-out 0.3s;
+}
+
+.gif-link {
+  text-decoration: none;
+}
+
+.gif-link:hover {
+  cursor: pointer;
+  color: #6b6d72;
+  transition: all ease-in-out 0.3s;
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  flex: 50%;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .row {
+    flex-direction: column;
+  }
+}
