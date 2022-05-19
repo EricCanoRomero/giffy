@@ -16,7 +16,7 @@ export default function Home() {
             </Helmet>
             <Search />
             <div className="row">
-
+                <h1>hola</h1>
                 <div className="App-results col">
                     <h3 className="App-title">Última Búsqueda</h3>
                     <ListOfGifs gifs={gifs} />
